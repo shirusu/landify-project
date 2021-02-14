@@ -1,0 +1,184 @@
+@media (max-width: 1199px) {
+  .management__img2 {
+    display: none;
+  }
+}
+@media (max-width: 992px) {
+  .hero__title {
+    font-size: 60px;
+  }
+  .hero__mobile {
+    display: none;
+  }
+
+  .application__item:not(:first-child) {
+    margin-left: 0;
+  }
+
+  .logo-list__item {
+    margin: 0 10px;
+  }
+}
+.testimonials__title {
+  font-size: 40px;
+}
+.testimonials__left-side {
+  padding-left: 0;
+}
+.testimonials__left-side svg {
+  display: none;
+}
+
+.stats__title {
+  font-size: 40px;
+}
+
+@media (max-width: 768px) {
+  .nav-btn {
+    display: flex;
+    position: fixed;
+    right: 30px;
+    top: 30px;
+  }
+
+  .nav__item:after {
+    display: none;
+  }
+
+  .nav-btn.active span:before {
+    transform: rotate(45deg);
+    top: 0;
+  }
+
+  .nav-btn.active span:after {
+    transform: rotate(-45deg);
+    top: 0;
+  }
+
+  .nav-btn.active span {
+    background-color: transparent;
+  }
+
+  .nav {
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    background: mediumpurple;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: 0.6s;
+  }
+  .nav .navbar__link {
+    margin: 15px 0;
+  }
+
+  .nav.active {
+    right: 0;
+  }
+
+  .management__pictures {
+    display: none;
+  }
+
+  .logo-list__item {
+    margin-bottom: 15px;
+  }
+
+  .feature__card__info {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .feature__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .hero__title {
+    padding-top: 150px;
+  }
+
+  .testimonials {
+    padding: 15px;
+  }
+  .testimonials__title {
+    font-size: 25px;
+  }
+  .testimonials__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .testimonials-card {
+    padding: 10px;
+  }
+
+  .grid__col_6 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .headline {
+    padding: 30px 0;
+  }
+
+  .headline__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .management__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .fashion__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .btn {
+    padding: 12px 21px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+}
+@media (max-width: 480px) {
+  .hero__title {
+    font-size: 30px;
+    line-height: 45px;
+  }
+
+  .management__title {
+    font-size: 30px;
+    padding-top: 10px;
+  }
+
+  .feature {
+    padding: 15px;
+  }
+  .feature__title {
+    font-size: 30px;
+  }
+}
+.stats {
+  padding: 15px 0;
+}
+
+.headline__content {
+  margin-top: 15px;
+}
+.headline .fashion {
+  padding: 15px 0;
+}
+.headline .management {
+  padding: 10px 0;
+}
+.headline .footer__content {
+  display: inline-block;
+  width: 100%;
+}
+
+/*# sourceMappingURL=media.css.map */
